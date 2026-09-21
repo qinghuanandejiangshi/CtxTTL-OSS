@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use CtxTTL in research, please cite this software release."
+title: "CtxTTL: lifecycle-aware context middleware for long-running LLM agents"
+type: software
+version: 0.2.1
+date-released: 2026-09-13
+authors:
+  - name: "CtxTTL Contributors"
+repository-code: "https://github.com/qinghuanandejiangshi/CtxTTL-OSS"
+url: "https://github.com/qinghuanandejiangshi/CtxTTL-OSS"
+license: Apache-2.0
+keywords:
+  - LLM agents
+  - context management
+  - lifecycle-aware memory
+  - long context

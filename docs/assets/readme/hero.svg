@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">CtxTTL Core</title>
+  <desc id="desc">Lifecycle-aware context middleware for long-running AI agents</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#151044"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4de2c5"/>
+      <stop offset="1" stop-color="#8b7cff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1025" cy="72" r="155" fill="#6c5cff" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="105" cy="365" r="145" fill="#42e8c1" opacity="0.1" filter="url(#glow)"/>
+  <g opacity="0.12" stroke="#b9c6e4">
+    <path d="M0 84H1200M0 168H1200M0 252H1200M0 336H1200"/>
+    <path d="M120 0V420M240 0V420M360 0V420M480 0V420M600 0V420M720 0V420M840 0V420M960 0V420M1080 0V420"/>
+  </g>
+  <g transform="translate(84 87)">
+    <rect width="78" height="78" rx="20" fill="url(#brand)"/>
+    <path d="M22 27h34M22 39h25M22 51h34" stroke="#07111f" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="56" cy="39" r="6" fill="#07111f"/>
+  </g>
+  <text x="188" y="134" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="750" letter-spacing="-2">CtxTTL Core</text>
+  <text x="86" y="218" fill="#c9d7f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28">Lifecycle-aware context middleware</text>
+  <text x="86" y="257" fill="#c9d7f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28">for long-running LLM agents.</text>
+  <g transform="translate(86 310)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600">
+    <rect width="154" height="42" rx="21" fill="#17334b" stroke="#4de2c5" stroke-opacity="0.7"/>
+    <text x="77" y="27" text-anchor="middle" fill="#72f0d4">DETERMINISTIC</text>
+    <rect x="168" width="132" height="42" rx="21" fill="#282452" stroke="#8b7cff" stroke-opacity="0.7"/>
+    <text x="234" y="27" text-anchor="middle" fill="#b8adff">AUDITABLE</text>
+    <rect x="314" width="176" height="42" rx="21" fill="#17334b" stroke="#4de2c5" stroke-opacity="0.7"/>
+    <text x="402" y="27" text-anchor="middle" fill="#72f0d4">PROVIDER-NEUTRAL</text>
+  </g>
+  <g transform="translate(724 76)">
+    <path d="M24 130H350" stroke="#6e83a8" stroke-width="3" stroke-dasharray="7 9"/>
+    <g transform="translate(0 78)">
+      <rect width="126" height="104" rx="18" fill="#12223a" stroke="#49617f"/>
+      <text x="63" y="36" text-anchor="middle" fill="#a9bad6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">HISTORY</text>
+      <path d="M26 58h74M26 72h58M26 86h68" stroke="#6e83a8" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(160 50)">
+      <rect width="148" height="160" rx="22" fill="#18274a" stroke="#8b7cff" stroke-width="2"/>
+      <text x="74" y="35" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">LIFECYCLE</text>
+      <circle cx="42" cy="69" r="8" fill="#4de2c5"/>
+      <path d="M42 77v39" stroke="#61769d" stroke-width="3"/>
+      <circle cx="42" cy="124" r="8" fill="#8b7cff"/>
+      <text x="63" y="74" fill="#bcd0ec" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">assert</text>
+      <text x="63" y="129" fill="#bcd0ec" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">supersede</text>
+    </g>
+    <g transform="translate(342 78)">
+      <rect width="126" height="104" rx="18" fill="#102d35" stroke="#4de2c5" stroke-width="2"/>
+      <text x="63" y="36" text-anchor="middle" fill="#72f0d4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">ACTIVE NOW</text>
+      <path d="M28 61h70M28 76h54" stroke="#72f0d4" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

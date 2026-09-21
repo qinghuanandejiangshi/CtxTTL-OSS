@@ -1,0 +1,63 @@
+schema_version = 1
+default_locale = "en"
+locales = ["en", "zh-CN"]
+
+[[pages]]
+id = "documentation-index"
+[pages.paths]
+en = "docs/README.md"
+zh-CN = "docs/zh-CN/README.md"
+
+[[pages]]
+id = "architecture"
+[pages.paths]
+en = "ARCHITECTURE.md"
+zh-CN = "docs/zh-CN/architecture.md"
+
+[[pages]]
+id = "agent-integrations"
+[pages.paths]
+en = "docs/agent-integrations.md"
+zh-CN = "docs/zh-CN/agent-integrations.md"
+
+[[pages]]
+id = "quick-agent-integration"
+[pages.paths]
+en = "docs/quick-agent-integration.md"
+zh-CN = "docs/zh-CN/quick-agent-integration.md"
+
+[[pages]]
+id = "integration-cases"
+[pages.paths]
+en = "docs/integration-cases.md"
+zh-CN = "docs/zh-CN/integration-cases.md"
+
+[[pages]]
+id = "identity-protocol"
+[pages.paths]
+en = "docs/identity-protocol.md"
+zh-CN = "docs/zh-CN/identity-protocol.md"
+
+[[pages]]
+id = "known-limitations"
+[pages.paths]
+en = "docs/known-limitations.md"
+zh-CN = "docs/zh-CN/known-limitations.md"
+
+[[pages]]
+id = "public-roadmap"
+[pages.paths]
+en = "docs/roadmap.md"
+zh-CN = "docs/zh-CN/roadmap.md"
+
+[[pages]]
+id = "mcp-integration"
+[pages.paths]
+en = "docs/mcp-integration.md"
+zh-CN = "docs/zh-CN/mcp-integration.md"
+
+[[pages]]
+id = "responses-api-proxy"
+[pages.paths]
+en = "docs/responses-api-proxy.md"
+zh-CN = "docs/zh-CN/responses-api-proxy.md"

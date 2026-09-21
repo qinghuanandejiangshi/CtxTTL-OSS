@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+  <title id="title">From history to active context</title>
+  <desc id="desc">CtxTTL projects lifecycle events before compiling a model request</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0c1729"/>
+      <stop offset="1" stop-color="#121c38"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0l9 4.5L0 9z" fill="#7488ac"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="360" rx="24" fill="url(#panel)"/>
+  <text x="54" y="54" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Compile validity before relevance</text>
+  <text x="54" y="82" fill="#91a4c5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">The model sees current state, not every historical version.</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(54 120)">
+      <rect width="210" height="176" rx="18" fill="#111f35" stroke="#405575"/>
+      <text x="22" y="34" fill="#9fb2d0" font-size="14" font-weight="700">EVENT LOG</text>
+      <circle cx="28" cy="66" r="6" fill="#4de2c5"/><text x="45" y="71" fill="#d8e3f5" font-size="14">assert: SQLite</text>
+      <circle cx="28" cy="98" r="6" fill="#f4a261"/><text x="45" y="103" fill="#d8e3f5" font-size="14">supersede</text>
+      <circle cx="28" cy="130" r="6" fill="#8b7cff"/><text x="45" y="135" fill="#d8e3f5" font-size="14">assert: PostgreSQL</text>
+      <circle cx="28" cy="154" r="6" fill="#ec6a88"/><text x="45" y="159" fill="#d8e3f5" font-size="14">expire: temporary note</text>
+    </g>
+    <path d="M278 208h76" stroke="#7488ac" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(370 120)">
+      <rect width="250" height="176" rx="18" fill="#171d42" stroke="#8b7cff" stroke-width="2"/>
+      <text x="22" y="34" fill="#b8adff" font-size="14" font-weight="700">ACTIVE-STATE PROJECTION</text>
+      <rect x="22" y="55" width="206" height="43" rx="10" fill="#242858"/>
+      <text x="36" y="81" fill="#f2f0ff" font-size="14">✓ PostgreSQL</text>
+      <rect x="22" y="108" width="206" height="43" rx="10" fill="#211d35"/>
+      <text x="36" y="134" fill="#847f99" font-size="14">× SQLite · expired note</text>
+    </g>
+    <path d="M634 208h76" stroke="#7488ac" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(726 120)">
+      <rect width="320" height="176" rx="18" fill="#102d35" stroke="#4de2c5" stroke-width="2"/>
+      <text x="22" y="34" fill="#72f0d4" font-size="14" font-weight="700">COMPILED MODEL REQUEST</text>
+      <text x="22" y="69" fill="#d8f7ef" font-size="14">Hard constraints preserved</text>
+      <text x="22" y="96" fill="#d8f7ef" font-size="14">Relevant active evidence selected</text>
+      <text x="22" y="123" fill="#d8f7ef" font-size="14">Protocol messages kept atomic</text>
+      <text x="22" y="150" fill="#d8f7ef" font-size="14">Trace emitted for replay</text>
+    </g>
+  </g>
+</svg>
